@@ -1,14 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Clone</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="utility.css">
 
+</head>
+
+<body>
+    <div class="container flex bg-black">
+
+        <div class="left bg-black">
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo invert"><img src="Assets/img/logo.svg" alt="logo"></div>
+                <ul>
+                    <li><img class="invert" src="Assets/img/home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="Assets/img/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="Assets/img/playlist.svg" alt="">
+                    <h2>
+                        Your Library
+                    </h2>
+                </div>
+                <div class="footer">
+
+                    <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety & Privacy
+                                Center</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="right rounded bg-grey ">
+            <div class="header ">
+                <div class="nav">
+                    <svg class="invert" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        color="#000000" fill="none">
+                        <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <svg class="invert" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        color="#000000" fill="none">
+                        <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="buttons">
+                    <button>SignUp</button>
+                    <button>Login</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylists">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer">
+                    <div class="card">
+                        <div class="play">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"
+                                    id="play">
+                                    <path
+                                        d="M12 39c-.549 0-1.095-.15-1.578-.447A3.008 3.008 0 0 1 9 36V12c0-1.041.54-2.007 1.422-2.553a3.014 3.014 0 0 1 2.919-.132l24 12a3.003 3.003 0 0 1 0 5.37l-24 12c-.42.21-.885.315-1.341.315z">
+                                    </path>
+                                </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f00000002c39bf4a39b83cd256d48b4c3" alt="">
+                        <h2>Today's Top Hits</h2>
+                        <p>Teddy Swims is on top of the Hottest 50!</p>
+                    </div>
+                    <div class="card">
+                        <div class="play">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"
+                                    id="play">
+                                    <path
+                                        d="M12 39c-.549 0-1.095-.15-1.578-.447A3.008 3.008 0 0 1 9 36V12c0-1.041.54-2.007 1.422-2.553a3.014 3.014 0 0 1 2.919-.132l24 12a3.003 3.003 0 0 1 0 5.37l-24 12c-.42.21-.885.315-1.341.315z">
+                                    </path>
+                                </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f00000002c39bf4a39b83cd256d48b4c3" alt="">
+                        <h2>Today's Top Hits</h2>
+                        <p>Teddy Swims is on top of the Hottest 50!</p>
+                    </div>
+                    <div class="card">
+                        <div class="play">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"
+                                    id="play">
+                                    <path
+                                        d="M12 39c-.549 0-1.095-.15-1.578-.447A3.008 3.008 0 0 1 9 36V12c0-1.041.54-2.007 1.422-2.553a3.014 3.014 0 0 1 2.919-.132l24 12a3.003 3.003 0 0 1 0 5.37l-24 12c-.42.21-.885.315-1.341.315z">
+                                    </path>
+                                </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f00000002c39bf4a39b83cd256d48b4c3" alt="">
+                        <h2>Today's Top Hits</h2>
+                        <p>Teddy Swims is on top of the Hottest 50!</p>
+                    </div>
+                    <div class="card">
+                        <div class="play">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"
+                                    id="play">
+                                    <path
+                                        d="M12 39c-.549 0-1.095-.15-1.578-.447A3.008 3.008 0 0 1 9 36V12c0-1.041.54-2.007 1.422-2.553a3.014 3.014 0 0 1 2.919-.132l24 12a3.003 3.003 0 0 1 0 5.37l-24 12c-.42.21-.885.315-1.341.315z">
+                                    </path>
+                                </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f00000002c39bf4a39b83cd256d48b4c3" alt="">
+                        <h2>Today's Top Hits</h2>
+                        <p>Teddy Swims is on top of the Hottest 50!</p>
+                    </div>
+                    <div class="card">
+                        <div class="play">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"
+                                    id="play">
+                                    <path
+                                        d="M12 39c-.549 0-1.095-.15-1.578-.447A3.008 3.008 0 0 1 9 36V12c0-1.041.54-2.007 1.422-2.553a3.014 3.014 0 0 1 2.919-.132l24 12a3.003 3.003 0 0 1 0 5.37l-24 12c-.42.21-.885.315-1.341.315z">
+                                    </path>
+                                </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f00000002c39bf4a39b83cd256d48b4c3" alt="">
+                        <h2>Today's Top Hits</h2>
+                        <p>Teddy Swims is on top of the Hottest 50!</p>
+                    </div>
+                    <div class="card">
+                        <div class="play">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"
+                                    id="play">
+                                    <path
+                                        d="M12 39c-.549 0-1.095-.15-1.578-.447A3.008 3.008 0 0 1 9 36V12c0-1.041.54-2.007 1.422-2.553a3.014 3.014 0 0 1 2.919-.132l24 12a3.003 3.003 0 0 1 0 5.37l-24 12c-.42.21-.885.315-1.341.315z">
+                                    </path>
+                                </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f00000002c39bf4a39b83cd256d48b4c3" alt="">
+                        <h2>Today's Top Hits</h2>
+                        <p>Teddy Swims is on top of the Hottest 50!</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
     <script src="script.js"></script>
 </body>
+
 </html>
